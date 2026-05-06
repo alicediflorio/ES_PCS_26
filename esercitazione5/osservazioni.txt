@@ -1,0 +1,12 @@
+In generale, dai risultati si può dedurre che, all'aumentare della lunghezza del vettore, il tempo di esecuzione aumenta per tutti gli algoritmi, in particolare:
+- il Bubble Sort, Insertion Sort e Selection Sort, essendo algoritmi dell'ordine di O(n^2), tendono a crescere molto più rapidamente;
+- il Merge Sort e il Quick Sort, essendo algoritmi dell'ordine di O(nlogn), hanno una crescita lenta e regolare, di conseguenza sono più efficienti per n grandi;
+- std::sort() ha una crescita molto simile al Quick Sort.
+
+Tra gli algoritmi:
+- quadratici --> il Bubble Sort è quasi sempre il peggiore, a differenza dell'Insertion Sort che è il migliore;
+- logaritmici  --> il Merge Sort è il peggiore, mentre il Quick Sort è il migliore;
+- std::sort() --> ottimo, ma non sempre è il più veloce.
+
+
+Per i risultati ottenuti non esiste una dimensione precisa per cui gli algoritmi quadratici sono migliori di quelli logaritmici, si può però dire che si aggiri intorno a n = 30.
